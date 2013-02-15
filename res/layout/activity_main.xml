@@ -5,6 +5,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity" >
 
+    <ImageView
+        android:id="@+id/splashscreen"
+        android:layout_width="263dp"
+        android:layout_height="208dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/logo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_logo" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="82dp"
