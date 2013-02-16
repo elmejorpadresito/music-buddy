@@ -34,3 +34,5 @@ then hg push
 
 hg pull
 hg update
+
+Version 1.0.4 - Alpha
