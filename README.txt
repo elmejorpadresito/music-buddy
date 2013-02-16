@@ -36,3 +36,4 @@ hg pull
 hg update
 
 Version 1.0.4 - Alpha 2.0
+CHANGES!
