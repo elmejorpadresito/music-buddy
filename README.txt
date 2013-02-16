@@ -18,22 +18,13 @@ This is a file that was added through Eclipse. I will push the changed to test s
 	3.2 Enter your Google Code credentials - DO NOT ENTER YOUR GOOGLE PASSWORD USE THE PROVIDED SEQUENCE.
 	3.3 IMPORTANT: ONLY IMPORT THE HEAD WITH THE LATEST VERSION, UNLESS YOU HAVE A PLAN.
 4. The project will be imported to the workstation.
-5. UPDATE constantly to avoid running into conflicts.
-6. COMMIT the changes.
+5. PULL first with UPDATE. 
+	5.1 You might get an error but choose to MERGE.
+6. When ready, COMMIT the changes.
+	6.1 Mark your comments as follows:
+		"Version 1.0.* - Description" See previous commits for reference.
 7. PUSH the changes.
 
 Let me know if you have any questions, I'm still working on getting used to this.
 
 -JAF
-
-Main Mercurial commands:
-
-first hg add
-then hg commit (-m)
-then hg push
-
-hg pull
-hg update
-
-Version 1.0.4 - Alpha 2.0
-CHANGES!
