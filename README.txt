@@ -1,12 +1,30 @@
 Authors:
 Juan Antonio Fuentes (Owner - Main Developer)
 Lauren VanVleet (Owner - Main Developer)
-Corby Schmitz (Tester - Have fun hacking)
-Amy Klouse (UI Tester - Non-commiting role)
+Rafal Zukowski (Committer - Main Developer)
+Amy Klouse (UI Tester - Non-committing role)
 Anthony Borrow, S.J. (Committer - Moodle Integration Specialist)
 Gabriel Fuentes (UI Tester - Possibly committing role in the future)
+Kevin Karam (Content Contributor - Musical concepts)
+Corby Schmitz (Tester - Have fun hacking)
 
+Eclipse Instructions:
+This is a file that was added through Eclipse. I will push the changed to test successful addition.
 
+1. Download Mercurial Eclipse
+2. On Eclipse go to File and Select Import
+3. Select to clone a Mercurial repository and then fill out the information:
+	3.1 This is the repository: https://code.google.com/p/music-buddy/
+	3.2 Enter your Google Code credentials - DO NOT ENTER YOUR GOOGLE PASSWORD USE THE PROVIDED SEQUENCE.
+	3.3 IMPORTANT: ONLY IMPORT THE HEAD WITH THE LATEST VERSION, UNLESS YOU HAVE A PLAN.
+4. The project will be imported to the workstation.
+5. UPDATE constantly to avoid running into conflicts.
+6. COMMIT the changes.
+7. PUSH the changes.
+
+Let me know if you have any questions, I'm still working on getting used to this.
+
+-JAF
 
 Main Mercurial commands:
 
@@ -16,20 +34,3 @@ then hg push
 
 hg pull
 hg update
-
-
-
-Eclipse Instructions:
-This is a file that was added through Eclipse. I will push the changed to test successful addition.
-
-1. Download Mercurial Eclipse
-2. On Eclipse go to File and Select Import
-3. Select to clone a Mercurial repository and then fill out the information.
-4. The project will be imported to the workstation.
-5. UPDATE contstantly to avoid running into conflics.
-6. Commit the changes.
-7. Push the changes.
-
-Let me know if you have any questions, I'm still working on getting used to this.
-
--JAF 
