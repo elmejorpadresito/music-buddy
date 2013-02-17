@@ -22,7 +22,7 @@ This is a file that was added through Eclipse. I will push the changed to test s
 	5.1 You might get an error but choose to MERGE.
 6. When ready, COMMIT the changes.
 	6.1 Mark your comments as follows:
-		"Version 1.0.* - Description" See previous commits for reference.
+		"Version 1.*.* - Description" See previous commits for reference.
 7. PUSH the changes.
 
 Let me know if you have any questions, I'm still working on getting used to this.

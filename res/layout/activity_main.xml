@@ -3,39 +3,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".Learn" >
 
     <ImageView
         android:id="@+id/splashscreen"
-        android:layout_width="263dp"
-        android:layout_height="208dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
         android:layout_gravity="center"
+        android:layout_weight="0.68"
         android:contentDescription="@string/logo"
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:src="@drawable/splash_logo" />
 
-    <TextView
+    <Button
+        android:id="@+id/learn_button"
         android:layout_width="match_parent"
         android:layout_height="82dp"
         android:clickable="true"
         android:gravity="center"
-        android:text="@string/learn"
+        android:text="@string/learn_button"
         android:textSize="40sp" />
 
-    <TextView
+    <Button
+        android:id="@+id/test_button"
         android:layout_width="match_parent"
         android:layout_height="82dp"
         android:clickable="true"
         android:gravity="center"
-        android:text="@string/test"
+        android:text="@string/test_button"
         android:textSize="40sp" />
 
-    <TextView
+    <Button
+        android:id="@+id/resources_button"
         android:layout_width="match_parent"
         android:layout_height="82dp"
         android:clickable="true"
         android:gravity="center"
-        android:text="@string/resources"
+        android:text="@string/resources_button"
         android:textSize="40sp" />
 
 </LinearLayout>

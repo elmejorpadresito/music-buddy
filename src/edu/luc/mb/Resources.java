@@ -1,5 +1,12 @@
 package edu.luc.mb;
 
-public class Resources {
+import android.app.Activity;
+import android.os.Bundle;
 
+public class Resources extends Activity {
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.resources);
+	}
 }
