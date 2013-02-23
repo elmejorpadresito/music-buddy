@@ -8,6 +8,7 @@
     <string name="resources_button">Resources</string>
     <string name="logo">Logo</string>
     
+    
     <string name="about_text">
 	This application is part of an Open Source Project for Loyola University Chicago COMP 412. \nThe project is run under the GNU GPL v3 License. 
 	\n\nComments, questions, and suggestions may be submitted to the Google Code Hosted project:\n
