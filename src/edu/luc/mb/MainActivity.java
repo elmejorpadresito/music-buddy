@@ -18,9 +18,8 @@ public class MainActivity extends Activity {
 		a.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				
-			// This will make the App Crash	
-			//	Intent a = new Intent(MainActivity.this, Learn.class);  
-			//	startActivity(a);
+				Intent a = new Intent(MainActivity.this, Learn.class);  
+				startActivity(a);
 				
 				Toast.makeText(getBaseContext(), "Get Ready to Learn",
 						Toast.LENGTH_SHORT).show();
@@ -31,8 +30,8 @@ public class MainActivity extends Activity {
 		test.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				
-			//	Intent b = new Intent(MainActivity.this, Quizz.class);
-			//	startActivity(b);
+				Intent b = new Intent(MainActivity.this, Quizz.class);
+				startActivity(b);
 				
 				Toast.makeText(getBaseContext(), "Are you ready?",
 						Toast.LENGTH_SHORT).show();
@@ -42,10 +41,9 @@ public class MainActivity extends Activity {
 		Button resources = (Button) findViewById(R.id.resources_button);
 		resources.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-			
-			
-			//	Intent c = new Intent(MainActivity.this, Resources.class);
-			//	startActivity(c);
+						
+				Intent c = new Intent(MainActivity.this, Resources.class);
+				startActivity(c);
 				
 				Toast.makeText(getBaseContext(), "Use the Resources!",
 						Toast.LENGTH_SHORT).show();

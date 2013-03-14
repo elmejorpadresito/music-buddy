@@ -7,7 +7,8 @@
     <string name="test_button">Quizzes</string>
     <string name="resources_button">Resources</string>
     <string name="logo">Logo</string>
-    
+    <string name="learn">Learn</string>
+    <string name="Contact">Contact Us!</string>
     
     <string name="about_text">
 	This application is part of an Open Source Project for Loyola University Chicago COMP 412. \nThe project is run under the GNU GPL v3 License. 

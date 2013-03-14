@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class ContacUs extends ListActivity {
+public class ContactUs extends ListActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
