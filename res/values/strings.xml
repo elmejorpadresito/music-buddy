@@ -8,12 +8,33 @@
     <string name="resources_button">Resources</string>
     <string name="logo">Logo</string>
     <string name="learn">Learn</string>
+    <string name="quiz">Quiz</string>
+    <string name="resources">Resources</string>
     <string name="Contact">Contact Us!</string>
+    <string name="go_button">Vertical List!</string>
+    <string name="list_button">Horizontal List!</string>
     
     <string name="about_text">
 	This application is part of an Open Source Project for Loyola University Chicago COMP 412. \nThe project is run under the GNU GPL v3 License. 
 	\n\nComments, questions, and suggestions may be submitted to the Google Code Hosted project:\n
 	http://code.google.com/p/music-buddy/ </string>
 	<string name="about_email">music-buddy@googlecode.com</string>
+	
+	<string name="treble_a">treb_a.png</string>
+	<string name="bass_middle_c">bass_middle_c.png</string>
+	<string name="treble_a1">treb_a1.png</string>
+	<string name="treble_b">treb_b.png</string>
+	<string name="treble_b1">treb_b1.png</string>
+	<string name="treble_c">treb_c.png</string>
+	<string name="treble_c1">treb_c1.png</string>
+	<string name="treble_d">treb_d.png</string>
+	<string name="treble_d1">treb_d1.png</string>
+	<string name="treble_e">treb_e.png</string>
+	<string name="treble_e1">treb_e1.png</string>
+	<string name="treble_f">treb_f.png</string>
+	<string name="treble_f1">treb_f1.png</string>
+	<string name="treble_g">treb_g.png</string>
+	<string name="treble_g1">treb_g1.png</string>
+	<string name="treble_middle_c">treb_middle_c.png</string>
 
 </resources>

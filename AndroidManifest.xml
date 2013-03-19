@@ -7,7 +7,7 @@
     android:debuggable="true">
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="10"
         android:targetSdkVersion="17" />
 
     <application
@@ -40,21 +40,33 @@
         
 		<activity
             android:name="edu.luc.mb.Quizz"
-            android:label="@string/learn" 
+            android:label="@string/quiz" 
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
        
 		<activity
             android:name="edu.luc.mb.Resources"
-            android:label="@string/learn" 
+            android:label="@string/resources" 
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
         
 		<activity
             android:name="edu.luc.mb.ContactUs"
-            android:label="@string/learn" 
+            android:label="@string/Contact" 
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
 		
+		<activity
+            android:name="edu.luc.mb.ListViewLearnActivity"
+            android:label="@string/go_button" 
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+		<activity
+            android:name="edu.luc.mb.HorizontalListViewDemo"
+            android:label="@string/list_button" 
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
     </application>
 </manifest>
