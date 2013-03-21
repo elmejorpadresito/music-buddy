@@ -19,15 +19,24 @@
         android:clickable="true"
         android:gravity="center"
         android:text="@string/go_button"
-        android:textSize="40sp" />
+        android:textSize="30sp" />
 
-          <Button
-        android:id="@+id/list_button"
+       <Button
+        android:id="@+id/treb_button"
         android:layout_width="match_parent"
-        android:layout_height="82dp"
+        android:layout_height="wrap_content"
         android:clickable="true"
         android:gravity="center"
-        android:text="@string/list_button"
-        android:textSize="40sp" />
+        android:text="@string/treb_button"
+        android:textSize="30sp" />
+       
+       <Button
+        android:id="@+id/bass_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/bass_button"
+        android:textSize="30sp" />
           
 </LinearLayout>
