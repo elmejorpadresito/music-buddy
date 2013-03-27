@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		test.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				
-				Intent b = new Intent(MainActivity.this, Quizz.class);
+				Intent b = new Intent(MainActivity.this, QuizFunActivity.class);
 				startActivity(b);
 				
 				Toast.makeText(getBaseContext(), "Are you ready?",
