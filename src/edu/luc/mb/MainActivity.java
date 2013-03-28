@@ -50,6 +50,18 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+		Button contact = (Button) findViewById(R.id.contact_button);
+		contact.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+						
+				Intent d = new Intent(MainActivity.this, ContactUs.class);
+				startActivity(d);
+				
+				Toast.makeText(getBaseContext(), "Contact Us!",
+						Toast.LENGTH_SHORT).show();
+			}
+		});
+		
 	}
 
 	@Override

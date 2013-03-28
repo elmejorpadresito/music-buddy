@@ -2,7 +2,6 @@ package edu.luc.mb;
 
 import android.app.ListActivity;
 import android.content.Intent;
-import android.location.Address;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +26,7 @@ public class ContactUs extends ListActivity {
 			// Start activity that you want to when 1st item of your list is
 			// selected
 			Intent DialIntent = new Intent(Intent.ACTION_DIAL,
-					Uri.parse("tel:469-835-5135"));
+					Uri.parse("tel:1-800-234-3423"));
 			DialIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			startActivity(DialIntent);
 
@@ -52,22 +51,19 @@ public class ContactUs extends ListActivity {
 					aEmailBCCList);
 
 			emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
-					"My subject");
+					"Report a Bug? Submit Feedback?");
 
 			emailIntent.setType("plain/text");
 			emailIntent.putExtra(android.content.Intent.EXTRA_TEXT,
-					"My message body.");
+					"In order to better serve you, please explain to the best of your ability the problem that you are experiencing, thanks!");
 
 			startActivity(emailIntent);
 
 			break;
 
-		case 2:
-			startActivity(new Intent(this, Address.class));
 		}
 
 	}
 
-	static final String[] NEWS = new String[] { "Call Developer", "Email Us",
-			"Meeting Address", };
+	static final String[] NEWS = new String[] { "Call Developer", "Email Us", };
 }

@@ -1,5 +1,6 @@
 package edu.luc.mb;
 
+import java.io.InputStream;
 import java.util.Arrays;
 
 import org.json.JSONArray;
@@ -13,6 +14,8 @@ import android.app.AlertDialog.Builder;
 
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.RadioGroup.OnCheckedChangeListener;
@@ -21,6 +24,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TableLayout;
 
+import android.text.Editable;
 import android.util.Log;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -32,6 +36,7 @@ public class QuestionActivity extends Activity {
 	/** Called when the activity is first created. */
 
 	EditText question = null;
+	// Paint image = null; //Testing to import an image rather than a question.
 	RadioButton answer1 = null;
 	RadioButton answer2 = null;
 	RadioButton answer3 = null;
@@ -56,6 +61,7 @@ public class QuestionActivity extends Activity {
 		
 		try {
 			question = (EditText) findViewById(R.id.question);
+			//image = (Editable) findViewById(R.id.image);
 			answer1 = (RadioButton) findViewById(R.id.a0);
 			answer2 = (RadioButton) findViewById(R.id.a1);
 			answer3 = (RadioButton) findViewById(R.id.a2);
@@ -75,7 +81,6 @@ public class QuestionActivity extends Activity {
 			java.util.Arrays.fill(selected, -1);
 			correctAns = new int[QuizFunActivity.getQuesList().length()];
 			java.util.Arrays.fill(correctAns, -1);
-
 
 			this.showQuestion(0,review);
 

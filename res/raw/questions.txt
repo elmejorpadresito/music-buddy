@@ -1,7 +1,7 @@
 {
   "Questions": [
     {
-      "Question": "Which animal is Carnivorous?",
+      "Question": "R.drawable.treb_middle_c",
       "CorrectAnswer": 1,
       "Answers": [
         {

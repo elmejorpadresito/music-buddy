@@ -25,7 +25,7 @@ public class QuizFunActivity extends Activity{
     @Override
     public void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.quizz);
+        setContentView(R.layout.splash);
         
         Thread thread = new Thread() {
         	public void run() {

@@ -16,31 +16,54 @@
         android:src="@drawable/splash_logo"
         android:clickable="true" />
 
-    <Button
-        android:id="@+id/learn_button"
+    <ScrollView
+        android:id="@+id/scrollView1"
         android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:clickable="true"
-        android:gravity="center"
-        android:text="@string/learn_button"
-        android:textSize="40sp" />
+        android:layout_height="wrap_content" >
 
-    <Button
-        android:id="@+id/test_button"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:clickable="true"
-        android:gravity="center"
-        android:text="@string/test_button"
-        android:textSize="40sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/resources_button"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:clickable="true"
-        android:gravity="center"
-        android:text="@string/resources_button"
-        android:textSize="40sp" />
+            <Button
+                android:id="@+id/learn_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/learn_button"
+                android:textSize="25sp" />
 
-</LinearLayout>
+            <Button
+                android:id="@+id/test_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/test_button"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/resources_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/resources"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/contact_button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="@string/Contact"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+ </LinearLayout> 
