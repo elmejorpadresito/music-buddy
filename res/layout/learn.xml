@@ -38,5 +38,24 @@
         android:gravity="center"
         android:text="@string/bass_button"
         android:textSize="30sp" />
+       
+       <Button
+        android:id="@+id/dynamics_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/dynamics_button"
+        android:textSize="30sp" />
+       
+       <Button
+        android:id="@+id/note_types_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/note_types_button"
+        android:textSize="30sp" />
+       
           
 </LinearLayout>

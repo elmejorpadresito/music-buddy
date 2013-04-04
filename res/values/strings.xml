@@ -14,6 +14,8 @@
     <string name="go_button">Vertical List!</string>
     <string name="treb_button">Treble Clef Notes</string>
     <string name="bass_button">Bass Clef Notes</string>
+    <string name="dynamics_button">Dynamics</string>
+    <string name="note_types_button">Note Types</string>
     <string name="instructions">Select the correct answer!</string>
     
     <string name="about_text">
@@ -23,7 +25,6 @@
 	<string name="about_email">music-buddy@googlecode.com</string>
 	
 	<string name="treble_a">treb_a.png</string>
-	<string name="bass_middle_c">bass_middle_c.png</string>
 	<string name="treble_a1">treb_a1.png</string>
 	<string name="treble_b">treb_b.png</string>
 	<string name="treble_b1">treb_b1.png</string>
@@ -38,5 +39,29 @@
 	<string name="treble_g">treb_g.png</string>
 	<string name="treble_g1">treb_g1.png</string>
 	<string name="treble_middle_c">treb_middle_c.png</string>
+	<string name="treble_clef">treble_clef.png</string>
+	
+	<string name="bass_middle_c">bass_middle_c.png</string>
+	<string name="bass_clef">bass_clef.png</string>
+	
+	<string name="sixteenth_note">sixteenth_note.png</string>
+	<string name="sixteenth_rest">sixteenth_rest.png</string>
+	<string name="eighth_note">eighth_note.png</string>
+	<string name="eighth_rest">eighth_rest.png</string>
+	<string name="quarter_note">quarter_note.png</string>
+	<string name="quarter_rest">quarter_rest.png</string>
+	<string name="half_note">half_note.png</string>
+	<string name="half_rest">half_rest.png</string>
+	<string name="whole_note">whole_note.png</string>
+	<string name="whole_rest">whole_rest.png</string>
+	
+	<string name="crescendo">crescendo.png</string>
+	<string name="diminuendo">diminuendo.png</string>
+	<string name="pianissimo">pianissimo.png</string>
+	<string name="piano">piano.png</string>
+	<string name="mezzo_piano">mezzo_piano.png</string>
+	<string name="mezzo_forte">mezzo_forte.png</string>
+	<string name="forte">forte.png</string>
+	<string name="fortissimo">fortissimo.png</string>
 
 </resources>

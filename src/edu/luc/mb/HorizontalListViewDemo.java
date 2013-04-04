@@ -32,6 +32,12 @@ public class HorizontalListViewDemo extends Activity {
 		HorizontalListView listview = (HorizontalListView) findViewById(R.id.listview);
 		listview.setAdapter(mAdapter);
 	}
+	
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+		this.finish();
+	}
 
 	private BaseAdapter mAdapter = new BaseAdapter() {
 
