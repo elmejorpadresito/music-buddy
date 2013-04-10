@@ -14,11 +14,15 @@ public class Learn extends Activity {
 												 "Treble Clef A", "Treble Clef B", "Treble Clef C"};
 	
 	private static int[] IMAGES = new int[] {R.drawable.treble_clef, R.drawable.treb_middle_c, R.drawable.treb_d, R.drawable.treb_e, R.drawable.treb_f, R.drawable.treb_g, R.drawable.treb_a,
-											 R.drawable.treb_b, R.drawable.treb_c, R.drawable.treb_d1, R.drawable.treb_e1, R.drawable.treb_f1, R.drawable.treb_g1,
-											 R.drawable.treb_a1, R.drawable.treb_b1, R.drawable.treb_c1};
+											 R.drawable.treb_b, R.drawable.treb_c1, R.drawable.treb_d1, R.drawable.treb_e1, R.drawable.treb_f1, R.drawable.treb_g1,
+											 R.drawable.treb_a1, R.drawable.treb_b1, R.drawable.treb_c2};
 	
-	private static String[] BASS_NOTES = new String[]{"Bass Clef", "Bass Clef Middle C"};
-	private static int[] BASS_IMGS = new int[]{R.drawable.bass_clef, R.drawable.bass_middle_c};
+	private static String[] BASS_NOTES = new String[]{"Bass Clef", "Bass Clef Middle C", "Bass Clef B", "Bass Clef A", "Bass Clef G", "Bass Clef F", "Bass Clef E", "Bass Clef D",
+													  "Bass Clef C", "Bass Clef B", "Bass Clef A", "Bass Clef G", "Bass Clef F", "Bass Clef E", "Bass Clef D", "Bass Clef C"};
+	
+	private static int[] BASS_IMGS = new int[]{R.drawable.bass_clef, R.drawable.bass_middle_c, R.drawable.bass_b, R.drawable.bass_a, R.drawable.bass_g, R.drawable.bass_f, R.drawable.bass_e,
+		 									   R.drawable.bass_d, R.drawable.bass_c1, R.drawable.bass_b1, R.drawable.bass_a1, R.drawable.bass_g1, R.drawable.bass_f1,
+		 									   R.drawable.bass_e1, R.drawable.bass_d1, R.drawable.bass_c2};
 	
 	private static String[] N_TYPES = new String[]{"Sixteenth Note", "Sixteenth Rest", "Eighth Note", "Eighth Rest", "Quarter Note", "Quarter Rest",
 												   "Half Note", "Half Rest", "Whole Note", "Whole Rest"};

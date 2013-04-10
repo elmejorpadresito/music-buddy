@@ -41,6 +41,20 @@
 	<string name="treble_middle_c">treb_middle_c.png</string>
 	<string name="treble_clef">treble_clef.png</string>
 	
+	<string name="bass_a">bass_a.png</string>
+	<string name="bass_a1">bass_a1.png</string>
+	<string name="bass_b">bass_b.png</string>
+	<string name="bass_b1">bass_b1.png</string>
+	<string name="bass_c">bass_c.png</string>
+	<string name="bass_c1">bass_c1.png</string>
+	<string name="bass_d">bass_d.png</string>
+	<string name="bass_d1">bass_d1.png</string>
+	<string name="bass_e">bass_e.png</string>
+	<string name="bass_e1">bass_e1.png</string>
+	<string name="bass_f">bass_f.png</string>
+	<string name="bass_f1">bass_f1.png</string>
+	<string name="bass_g">bass_g.png</string>
+	<string name="bass_g1">bass_g1.png</string>
 	<string name="bass_middle_c">bass_middle_c.png</string>
 	<string name="bass_clef">bass_clef.png</string>
 	

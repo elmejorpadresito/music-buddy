@@ -13,15 +13,6 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
        <Button
-        android:id="@+id/go_button"
-        android:layout_width="match_parent"
-        android:layout_height="82dp"
-        android:clickable="true"
-        android:gravity="center"
-        android:text="@string/go_button"
-        android:textSize="30sp" />
-
-       <Button
         android:id="@+id/treb_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
