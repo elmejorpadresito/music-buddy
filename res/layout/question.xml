@@ -9,15 +9,13 @@
         android:layout_height="wrap_content"
         android:editable="false"
         android:lines="3" android:clickable="false" android:cursorVisible="false">
-
         <requestFocus />
     </EditText>
 
     <ImageView
         android:id="@+id/image_question"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/app_blank" />
+        android:layout_height="wrap_content" />
 
     <RadioGroup
         android:id="@+id/answers"
