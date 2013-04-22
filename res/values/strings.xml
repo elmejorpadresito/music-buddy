@@ -16,6 +16,8 @@
     <string name="bass_button">Bass Clef Notes</string>
     <string name="dynamics_button">Dynamics</string>
     <string name="note_types_button">Note Types</string>
+    <string name="more_info_button">More Info</string>
+    <string name="dialog_button_ok">OK</string>
     <string name="instructions">Select the correct answer!</string>
     
     <string name="about_text">

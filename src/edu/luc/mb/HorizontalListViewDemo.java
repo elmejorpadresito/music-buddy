@@ -4,7 +4,9 @@ package edu.luc.mb;
 import edu.luc.mb.HorizontalListView;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -28,9 +30,10 @@ public class HorizontalListViewDemo extends Activity {
 		images = extras.getIntArray("images");
 
 		setContentView(R.layout.horizontal_list_view);
-
+		
 		HorizontalListView listview = (HorizontalListView) findViewById(R.id.listview);
 		listview.setAdapter(mAdapter);
+		
 	}
 	
 	@Override
@@ -45,10 +48,35 @@ public class HorizontalListViewDemo extends Activity {
 
 				@Override
 				public void onClick(View v) {
+					
 					AlertDialog.Builder builder = new AlertDialog.Builder(HorizontalListViewDemo.this);
-					builder.setMessage("hello from " + v);
+					builder.setMessage("Some text about this thing" + v);
 					builder.setPositiveButton("Cool", null);
+					
+				//	AlertDialog dialog = builder.create();
+					
 					builder.show();
+			//		dialog.show();
+	/*				
+					//custom dialog window
+					final Dialog dialog = new Dialog(mContext);
+					dialog.setContentView(R.layout.info_dialog);
+					dialog.setTitle("More Info");
+					
+					// set the custom dialog components
+					TextView text = (TextView) dialog.findViewById(R.id.info_text);
+					text.setText("Some Text about this thing");
+					Button dialogButton = (Button) dialog.findViewById(R.id.dialog_button_ok);
+					// if button is clicked, close the custom dialog window
+					dialogButton.setOnClickListener(new OnClickListener() {
+						@Override
+						public void onClick(View v) {
+							dialog.dismiss();
+						}
+					});
+					
+					dialog.show(); */
+					
 				}
 		};
 
@@ -76,7 +104,11 @@ public class HorizontalListViewDemo extends Activity {
 			imageView.setImageResource(images[position]);
 	
 			title.setText(values[position]);
-	
+			
+			Button button = (Button) rowView.findViewById(R.id.more_info_button);
+			button.setOnClickListener(mOnButtonClicked);
+			
+			
 			return rowView;
 		} 
 

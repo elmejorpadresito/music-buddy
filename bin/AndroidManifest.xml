@@ -33,6 +33,7 @@
 		<activity android:name="edu.luc.mb.HorizontalListViewDemo" android:label="@string/treb_button" android:theme="@android:style/Theme.NoTitleBar"></activity>
 		<activity android:name="edu.luc.mb.QuestionActivity" android:label="@string/treb_button" android:theme="@android:style/Theme.NoTitleBar"></activity>
 		<activity android:name="edu.luc.mb.QuizFunActivity" android:label="@string/treb_button" android:theme="@android:style/Theme.NoTitleBar"></activity>
+		
         
     </application>
 </manifest>
