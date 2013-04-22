@@ -64,9 +64,6 @@ public class Learn extends Activity {
 				b.putExtra("values", NOTES);
 				b.putExtra("images", IMAGES);
 				startActivity(b);
-				
-				Toast.makeText(getBaseContext(), "Get Ready to Treble Clef!",
-						Toast.LENGTH_SHORT).show();
 			}
 		});
 		
@@ -78,9 +75,6 @@ public class Learn extends Activity {
 				c.putExtra("values", BASS_NOTES);
 				c.putExtra("images", BASS_IMGS);
 				startActivity(c);
-				
-				Toast.makeText(getBaseContext(), "Get Ready to Bass Clef!",
-						Toast.LENGTH_SHORT).show();
 			}
 		}); 
 		
@@ -92,9 +86,6 @@ public class Learn extends Activity {
 				d.putExtra("values", DYNAMICS);
 				d.putExtra("images", DYN_IMGS);
 				startActivity(d);
-				
-				Toast.makeText(getBaseContext(), "Get Ready to Dynamics!",
-						Toast.LENGTH_SHORT).show();
 			}
 		});
 		
@@ -106,9 +97,6 @@ public class Learn extends Activity {
 				e.putExtra("values", N_TYPES);
 				e.putExtra("images", NTYP_IMGS);
 				startActivity(e);
-				
-				Toast.makeText(getBaseContext(), "Get Ready to Note Types!",
-						Toast.LENGTH_SHORT).show();
 			}
 		});
 		

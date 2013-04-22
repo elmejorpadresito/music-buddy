@@ -20,9 +20,6 @@ public class MainActivity extends Activity {
 				
 				Intent a = new Intent(MainActivity.this, Learn.class);  
 				startActivity(a);
-				
-				Toast.makeText(getBaseContext(), "Get Ready to Learn",
-						Toast.LENGTH_SHORT).show();
 			}
 		});
 		
@@ -44,9 +41,6 @@ public class MainActivity extends Activity {
 						
 				Intent c = new Intent(MainActivity.this, Resources.class);
 				startActivity(c);
-				
-				Toast.makeText(getBaseContext(), "Use the Resources!",
-						Toast.LENGTH_SHORT).show();
 			}
 		});
 		
@@ -56,9 +50,6 @@ public class MainActivity extends Activity {
 						
 				Intent d = new Intent(MainActivity.this, ContactUs.class);
 				startActivity(d);
-				
-				Toast.makeText(getBaseContext(), "Contact Us!",
-						Toast.LENGTH_SHORT).show();
 			}
 		});
 		
