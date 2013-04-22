@@ -55,7 +55,7 @@
       ]
     },
 	{
-      "Question": "Which two clefs make up the Grand Staff?",
+      "Question": "Which Clefs make up the Grand Staff?",
       "CorrectAnswer": 0,
       "Answers": [
         {
@@ -145,7 +145,7 @@
       ]
     },
 	{
-      "Question": "Which of the following gets 1/8 of the beat?",
+      "Question": "Which of the following gets 1/4 of the beat?",
       "CorrectAnswer": 2,
       "Answers": [
         {
@@ -307,7 +307,7 @@
       ]
     },
 	{
-      "Question": "Does mezzo-piano means very soft?",
+      "Question": "Mezzo-piano means very soft",
       "CorrectAnswer": 1,
       "Answers": [
         {
