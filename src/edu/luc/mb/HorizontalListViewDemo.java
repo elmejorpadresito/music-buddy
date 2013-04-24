@@ -8,6 +8,7 @@ import android.app.Dialog;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View.OnClickListener;
@@ -21,6 +22,7 @@ public class HorizontalListViewDemo extends Activity {
 	private static String[] values;
 	private static int[] images;
 	
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
@@ -33,7 +35,7 @@ public class HorizontalListViewDemo extends Activity {
 		
 		HorizontalListView listview = (HorizontalListView) findViewById(R.id.listview);
 		listview.setAdapter(mAdapter);
-		
+	
 	}
 	
 	@Override
@@ -41,6 +43,7 @@ public class HorizontalListViewDemo extends Activity {
 		super.onBackPressed();
 		this.finish();
 	}
+	
 
 	private BaseAdapter mAdapter = new BaseAdapter() {
 
@@ -94,6 +97,7 @@ public class HorizontalListViewDemo extends Activity {
 		public long getItemId(int position) {
 			return 0;
 		}
+		
 
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
@@ -103,11 +107,7 @@ public class HorizontalListViewDemo extends Activity {
 	
 			imageView.setImageResource(images[position]);
 	
-			title.setText(values[position]);
-			
-			Button button = (Button) rowView.findViewById(R.id.more_info_button);
-			button.setOnClickListener(mOnButtonClicked);
-			
+			title.setText(values[position]); 
 			
 			return rowView;
 		} 

@@ -21,6 +21,16 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical" >
+            
+            <Button
+                android:id="@+id/music_theory_net"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="musictheory.net"
+                android:textSize="15sp" />
+				http://www.musictheory.net
 
             <Button
                 android:id="@+id/basic_piano_notes"

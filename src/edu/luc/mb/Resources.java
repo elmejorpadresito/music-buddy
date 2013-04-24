@@ -156,5 +156,16 @@ public class Resources extends Activity {
 				startActivity(i);
 			}
 		});	
+		
+		Button n = (Button) findViewById(R.id.music_theory_net);
+		n.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				
+				String url = "http://www.musictheory.net";
+				Intent n = new Intent(Intent.ACTION_VIEW);
+				n.setData(Uri.parse(url));
+				startActivity(n);
+			}
+		});
 	}
 }

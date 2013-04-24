@@ -11,26 +11,26 @@ public class Learn extends Activity {
 	
 	private static String[] NOTES = new String[]{" Treble Clef", "Treble Clef Middle C", "Treble Clef D", "Treble Clef E", "Treble Clef F", "Treble Clef G", "Treble Clef A",
 												 "Treble Clef B", "Treble Clef C", "Treble Clef D", "Treble Clef E", "Treble Clef F", "Treble Clef G",
-												 "Treble Clef A", "Treble Clef B", "Treble Clef C"};
+												 "Treble Clef A", "Treble Clef B", "Treble Clef C", "Treble Clef Lines", "Treble Clef Spaces"};
 	
 	private static int[] IMAGES = new int[] {R.drawable.treble_clef, R.drawable.treb_middle_c, R.drawable.treb_d, R.drawable.treb_e, R.drawable.treb_f, R.drawable.treb_g, R.drawable.treb_a,
 											 R.drawable.treb_b, R.drawable.treb_c1, R.drawable.treb_d1, R.drawable.treb_e1, R.drawable.treb_f1, R.drawable.treb_g1,
-											 R.drawable.treb_a1, R.drawable.treb_b1, R.drawable.treb_c2};
+											 R.drawable.treb_a1, R.drawable.treb_b1, R.drawable.treb_c2, R.drawable.treb_lines, R.drawable.treb_spaces};
 	
 	private static String[] BASS_NOTES = new String[]{"Bass Clef", "Bass Clef Middle C", "Bass Clef B", "Bass Clef A", "Bass Clef G", "Bass Clef F", "Bass Clef E", "Bass Clef D",
-													  "Bass Clef C", "Bass Clef B", "Bass Clef A", "Bass Clef G", "Bass Clef F", "Bass Clef E", "Bass Clef D", "Bass Clef C"};
+													  "Bass Clef C", "Bass Clef B", "Bass Clef A", "Bass Clef G", "Bass Clef F", "Bass Clef E", "Bass Clef D", "Bass Clef C", "Bass Clef Lines", "Bass Clef Spaces"};
 	
 	private static int[] BASS_IMGS = new int[]{R.drawable.bass_clef, R.drawable.bass_middle_c, R.drawable.bass_b, R.drawable.bass_a, R.drawable.bass_g, R.drawable.bass_f, R.drawable.bass_e,
 		 									   R.drawable.bass_d, R.drawable.bass_c1, R.drawable.bass_b1, R.drawable.bass_a1, R.drawable.bass_g1, R.drawable.bass_f1,
-		 									   R.drawable.bass_e1, R.drawable.bass_d1, R.drawable.bass_c2};
+		 									   R.drawable.bass_e1, R.drawable.bass_d1, R.drawable.bass_c2, R.drawable.bass_lines, R.drawable.bass_spaces};
 	
-	private static String[] N_TYPES = new String[]{"Sixteenth Note", "Sixteenth Rest", "Eighth Note", "Eighth Rest", "Quarter Note", "Quarter Rest",
-												   "Half Note", "Half Rest", "Whole Note", "Whole Rest"};
+	private static String[] N_TYPES = new String[]{"Whole Note\n(4 beats)", "Whole Rest\n(4 beats)", "Half Note\n(2 beats)", "Half Rest\n(2 beats)", "Quarter Note\n(1 beat)", "Quarter Rest\n(1 beat)",
+												   "Eighth Note\n(1/2 of the beat)", "Eighth Rest\n(1/2 of the beat)", "Sixteenth Note\n(1/4 of the beat)", "Sixteenth Rest\n(1/4 of the beat)"};
 	
-	private static int[] NTYP_IMGS = new int[]{R.drawable.sixteenth_note, R.drawable.sixteenth_rest, R.drawable.eighth_note, R.drawable.eighth_rest, R.drawable.quarter_note,
-													 R.drawable.quarter_rest, R.drawable.half_note, R.drawable.half_rest, R.drawable.whole_note, R.drawable.whole_rest};
+	private static int[] NTYP_IMGS = new int[]{R.drawable.whole_note, R.drawable.whole_rest, R.drawable.half_note, R.drawable.half_rest, R.drawable.quarter_note, R.drawable.quarter_rest,
+											   R.drawable.eighth_note, R.drawable.eighth_rest, R.drawable.sixteenth_note, R.drawable.sixteenth_rest};
 	
-	private static String[] DYNAMICS = new String[]{"pianissimo", "piano", "mezzo-piano", "mezzo-forte", "forte", "fortissimo", "crescendo", "diminuendo"};
+	private static String[] DYNAMICS = new String[]{"pianissimo\n(very quiet)", "piano\n(quiet)", "mezzo-piano\n(medium quiet)", "mezzo-forte\n(medium loud)", "forte\n(loud)", "fortissimo\n(very loud)", "crescendo\n(gradually get louder)", "diminuendo\n(gradually get softer)"};
 	
 	private static int[] DYN_IMGS = new int[]{R.drawable.pianissimo, R.drawable.piano, R.drawable.mezzo_piano, R.drawable.mezzo_forte, R.drawable.forte, R.drawable.fortissimo, R.drawable.crescendo, R.drawable.diminuendo};
 	
@@ -44,17 +44,6 @@ public class Learn extends Activity {
 
 		// Added this to try to launch a list view
 		
-/*		Button a = (Button) findViewById(R.id.go_button);
-		a.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				
-				Intent a = new Intent(Learn.this, ListViewLearnActivity.class);  
-				startActivity(a);
-				
-				Toast.makeText(getBaseContext(), "Get Ready to List",
-						Toast.LENGTH_SHORT).show();
-			}
-		}); */
 		
 		Button b = (Button) findViewById(R.id.treb_button);
 		b.setOnClickListener(new View.OnClickListener() {
@@ -99,6 +88,7 @@ public class Learn extends Activity {
 				startActivity(e);
 			}
 		});
+		
 		
 	}
 }

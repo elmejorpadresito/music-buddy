@@ -16,8 +16,6 @@
     <string name="bass_button">Bass Clef Notes</string>
     <string name="dynamics_button">Dynamics</string>
     <string name="note_types_button">Note Types</string>
-    <string name="more_info_button">More Info</string>
-    <string name="dialog_button_ok">OK</string>
     <string name="instructions">Select the correct answer!</string>
     
     <string name="about_text">
@@ -25,6 +23,7 @@
 	\n\nComments, questions, and suggestions may be submitted to the Google Code Hosted project:\n
 	http://code.google.com/p/music-buddy/ </string>
 	<string name="about_email">music-buddy@googlecode.com</string>
+	
 	
 	<string name="treble_a">treb_a.png</string>
 	<string name="treble_a1">treb_a1.png</string>
@@ -42,6 +41,8 @@
 	<string name="treble_g1">treb_g1.png</string>
 	<string name="treble_middle_c">treb_middle_c.png</string>
 	<string name="treble_clef">treble_clef.png</string>
+	<string name="treb_lines">treb_lines.png</string>
+	<string name="treb_spaces">treb_spaces.png</string>
 	
 	<string name="bass_a">bass_a.png</string>
 	<string name="bass_a1">bass_a1.png</string>
@@ -59,6 +60,8 @@
 	<string name="bass_g1">bass_g1.png</string>
 	<string name="bass_middle_c">bass_middle_c.png</string>
 	<string name="bass_clef">bass_clef.png</string>
+	<string name="bass_lines">bass_lines.png</string>
+	<string name="Bass_spaces">bass_spaces.png</string>
 	
 	<string name="sixteenth_note">sixteenth_note.png</string>
 	<string name="sixteenth_rest">sixteenth_rest.png</string>

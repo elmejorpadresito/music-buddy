@@ -48,5 +48,6 @@
         android:text="@string/note_types_button"
         android:textSize="30sp" />
        
+       
           
 </LinearLayout>
