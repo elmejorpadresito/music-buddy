@@ -109,7 +109,7 @@
       ]
     },
 	{
-      "Question": "How many beats does and eighth note get?",
+      "Question": "How many beats does an eighth note get?",
       "CorrectAnswer": 0,
       "Answers": [
         {
