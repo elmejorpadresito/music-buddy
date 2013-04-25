@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+import luc.mb.R;
 
 public class Learn extends Activity {
 	

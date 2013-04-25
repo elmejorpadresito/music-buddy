@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.widget.Toast;
+import luc.mb.R;
 
 public class Splash extends Activity {
 

@@ -2,6 +2,7 @@ package edu.luc.mb;
 
 
 import edu.luc.mb.HorizontalListView;
+import luc.mb.R;
 
 import android.app.Activity;
 import android.app.Dialog;

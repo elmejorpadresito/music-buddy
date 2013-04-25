@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.*;
 import android.view.*;
 import android.widget.*;
+import luc.mb.R;
 
 public class MainActivity extends Activity {
 

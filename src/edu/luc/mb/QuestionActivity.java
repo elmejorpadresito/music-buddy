@@ -2,6 +2,7 @@ package edu.luc.mb;
 
 import java.io.InputStream;
 import java.util.Arrays;
+import luc.mb.R;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

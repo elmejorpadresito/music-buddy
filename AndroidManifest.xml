@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
      
-    package="edu.luc.mb"
-    android:versionCode="2"
-    android:versionName="1.2" 
-    android:debuggable="false">
+    package="luc.mb"
+    android:versionCode="1"
+    android:versionName="1.1">
 
     <uses-sdk
         android:minSdkVersion="10"
