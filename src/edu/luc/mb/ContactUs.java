@@ -26,7 +26,7 @@ public class ContactUs extends ListActivity {
 			// Start activity that you want to when 1st item of your list is
 			// selected
 			Intent DialIntent = new Intent(Intent.ACTION_DIAL,
-					Uri.parse("tel:1-800-234-3423"));
+					Uri.parse("tel:312-380-9704"));
 			DialIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 			startActivity(DialIntent);
 
@@ -40,7 +40,7 @@ public class ContactUs extends ListActivity {
 			emailIntent.setType("message/rfc822");
 			startActivity(emailIntent);
 
-			String aEmailList[] = { "jfuent2@gmail.com" };
+			String aEmailList[] = { "mscbdd@gmail.com" };
 			String aEmailCCList[] = { "" };
 			String aEmailBCCList[] = { "" };
 
