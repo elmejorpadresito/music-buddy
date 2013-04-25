@@ -3,7 +3,7 @@
 
     <string name="app_name">Music Buddy</string>
     <string name="learn_button">Learn Music!</string>
-    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit Music Buddy</string>
     <string name="test_button">Quizzes</string>
     <string name="resources_button">Resources</string>
     <string name="logo">Logo</string>

@@ -36,8 +36,6 @@ public class Learn extends Activity {
 	private static int[] DYN_IMGS = new int[]{R.drawable.pianissimo, R.drawable.piano, R.drawable.mezzo_piano, R.drawable.mezzo_forte, R.drawable.forte, R.drawable.fortissimo, R.drawable.crescendo, R.drawable.diminuendo};
 	
 	
-	
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

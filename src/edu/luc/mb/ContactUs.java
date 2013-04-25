@@ -1,6 +1,9 @@
 package edu.luc.mb;
 
+import android.R;
+import android.app.AlertDialog;
 import android.app.ListActivity;
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -18,6 +21,9 @@ public class ContactUs extends ListActivity {
 				android.R.layout.simple_list_item_1, NEWS));
 		getListView().setTextFilterEnabled(true);
 	}
+	
+	// this context will use when we work with Alert Dialog
+    final Context context = this;
 
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		super.onListItemClick(l, v, position, id);
@@ -60,10 +66,19 @@ public class ContactUs extends ListActivity {
 			startActivity(emailIntent);
 
 			break;
+			
+		case 2:
+			AlertDialog.Builder alert = new AlertDialog.Builder(context);
+	        alert.setTitle("About Music Buddy"); //Set Alert dialog title here
+	        alert.setMessage("This application is part of an Open Source Project for Loyola University Chicago COMP 412. \nThe project is run under the GNU GPL v3 License. Comments, questions, and suggestions may be submitted to our email address: mscbdd@gmail.com"); //Message here
+	        AlertDialog alertDialog = alert.create();
+	        alertDialog.show();
+	        
+			break;
 
 		}
 
 	}
 
-	static final String[] NEWS = new String[] { "Call Developer", "Email Us", };
+	static final String[] NEWS = new String[] { "Call Developers - Beta", "Email Us", "About" };
 }
