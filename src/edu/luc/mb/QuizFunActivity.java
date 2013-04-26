@@ -21,7 +21,6 @@ public class QuizFunActivity extends Activity{
 	BufferedReader bReader = null;
 	static JSONArray quesList = null;
 
-
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)  {

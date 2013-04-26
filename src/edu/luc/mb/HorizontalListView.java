@@ -349,11 +349,7 @@ public class HorizontalListView extends AdapterView<ListAdapter> {
 			}
 			return true;
 		}
-		
-		
-		
+				
 	};
-
-	
 
 }

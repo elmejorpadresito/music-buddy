@@ -19,7 +19,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical" >
             
             <Button
@@ -28,9 +28,9 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:gravity="center"
-                android:text="musictheory.net"
+                android:text="Music Theory"
                 android:textSize="15sp" />
-				http://www.musictheory.net
+				<!--http://www.musictheory.net-->
 
             <Button
                 android:id="@+id/basic_piano_notes"
@@ -40,7 +40,7 @@
                 android:gravity="center"
                 android:text="Video: Basic Piano Notes from About.com"
                 android:textSize="15sp" />
-				http://www.youtube.com/watch?v=RjOr95LegJo
+				<!--http://www.youtube.com/watch?v=RjOr95LegJo-->
 
             <Button
                 android:id="@+id/music_leson_reading_music"
@@ -50,7 +50,7 @@
                 android:gravity="center"
                 android:text="Video: Reading Music"
                 android:textSize="15sp" />
-				http://www.youtube.com/watch?v=rjD7C6IsBX8
+				<!--http://www.youtube.com/watch?v=rjD7C6IsBX8-->
 
              <Button
                 android:id="@+id/how_read_sheet_music"
@@ -60,7 +60,7 @@
                 android:gravity="center"
                 android:text="How To Read Sheet Music"
                 android:textSize="15sp" />
-				http://www.howtodothings.com/hobbies/a2683-how-to-read-sheet-music.html
+				<!--http://www.howtodothings.com/hobbies/a2683-how-to-read-sheet-music.html-->
             
             <Button
                 android:id="@+id/basic_note_naming"
@@ -70,7 +70,7 @@
                 android:gravity="center"
                 android:text="Video: Basic note naming on the Treble clef and Bass clef"
                 android:textSize="15sp" />
-				http://www.youtube.com/watch?v=9mTKc22xowU
+				<!--http://www.youtube.com/watch?v=9mTKc22xowU-->
 
             <Button
                 android:id="@+id/string_note"
@@ -80,7 +80,7 @@
                 android:gravity="center"
                 android:text="String Note - Online Notes Quiz"
                 android:textSize="15sp" />
-            	http://www.stringnote.com/vs/piano3/
+            	<!--http://www.stringnote.com/vs/piano3/-->
             
 			<Button
 		        android:id="@+id/capotastomusic"
@@ -90,7 +90,7 @@
 		        android:gravity="center"
 		        android:text="Capotasmo Music"
 		        android:textSize="15sp" />
-				http://www.capotastomusic.com/piano-sheet-music/basic.htm
+				<!--http://www.capotastomusic.com/piano-sheet-music/basic.htm-->
               
 			<Button
 		        android:id="@+id/walt_robeiro"
@@ -100,7 +100,7 @@
 		        android:gravity="center"
 		        android:text="Walt Robeiro Video Tutorials"
 		        android:textSize="15sp" />
-				http://waltribeiro.com/
+				<!--http://waltribeiro.com/-->
 		       
 			<Button
 		        android:id="@+id/how_to_read_music"
@@ -110,7 +110,7 @@
 		        android:gravity="center"
 		        android:text="How to read music"
 		        android:textSize="15sp" />
-				http://www.youtube.com/watch?v=3spcwekxhrE
+				<!--http://www.youtube.com/watch?v=3spcwekxhrE-->
 			
 			<Button
 		        android:id="@+id/pre_piano"
@@ -120,7 +120,7 @@
 		        android:gravity="center"
 		        android:text="Pre Piano"
 		        android:textSize="15sp" />
-				http://prepiano.com/
+				<!--http://prepiano.com/-->
 						
 			<Button
 		        android:id="@+id/learning_notes_basics"
@@ -130,7 +130,7 @@
 		        android:gravity="center"
 		        android:text="Video: Learning-Notes-Basics"
 		        android:textSize="15sp" />
-				http://www.youtube.com/watch?v=1GqyS3S1MEk
+				<!--http://www.youtube.com/watch?v=1GqyS3S1MEk-->
 
 			<Button
 		        android:id="@+id/music_learning_workshop"
@@ -140,7 +140,7 @@
 		        android:gravity="center"
 		        android:text="Music Learning Workshop"
 		        android:textSize="15sp" />
-				http://www.musiclearningworkshop.com/
+				<!--http://www.musiclearningworkshop.com/-->
 
 			<Button
 		        android:id="@+id/emusictheory"
@@ -150,7 +150,7 @@
 		        android:gravity="center"
 		        android:text="E-Music Theory"
 		        android:textSize="15sp" />
-				http://www.emusictheory.com/learning.html
+				<!--http://www.emusictheory.com/learning.html-->
 
 			<Button
 		        android:id="@+id/all_about_trumpet"
@@ -160,7 +160,7 @@
 		        android:gravity="center"
 		        android:text="All About Trumpet"
 		        android:textSize="15sp" />
-				http://www.allabouttrumpet.com/pdf/BMT/BMT-2nd-ed.pdf
+				<!--http://www.allabouttrumpet.com/pdf/BMT/BMT-2nd-ed.pdf-->
 
         </LinearLayout>
 
