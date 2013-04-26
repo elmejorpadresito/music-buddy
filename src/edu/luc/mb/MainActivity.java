@@ -1,19 +1,24 @@
 package edu.luc.mb;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.*;
 import android.view.*;
 import android.widget.*;
 import luc.mb.R;
+import luc.mb.R.raw;
 
 public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);	
-			
+		setContentView(R.layout.activity_main);
+		
+			//Play Music Buddy Theme
+	 		MediaPlayer mp = MediaPlayer.create(this, raw.music_buddy_theme);  
+	 		mp.start();
 		
 		Button a = (Button) findViewById(R.id.learn_button);
 		a.setOnClickListener(new View.OnClickListener() {
@@ -28,10 +33,10 @@ public class MainActivity extends Activity {
 		test.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				
-				Intent b = new Intent(MainActivity.this, QuizFunActivity.class);
+				Intent b = new Intent(MainActivity.this, Quizzes.class);
 				startActivity(b);
 				
-				Toast.makeText(getBaseContext(), "Are you ready?",
+				Toast.makeText(getBaseContext(), "Select a Quiz",
 						Toast.LENGTH_SHORT).show();
 			}
 		});		
@@ -48,7 +53,7 @@ public class MainActivity extends Activity {
 		Button contact = (Button) findViewById(R.id.contact_button);
 		contact.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-						
+				
 				Intent d = new Intent(MainActivity.this, ContactUs.class);
 				startActivity(d);
 			}
@@ -68,11 +73,10 @@ public class MainActivity extends Activity {
 	    // Handle item selection
 	    switch (item.getItemId()) {
         case R.id.menu_exit:
-        	System.exit(1);
+        	finish();
             return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
 	    }
 	}
-	
 }
