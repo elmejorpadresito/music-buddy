@@ -108,5 +108,5 @@ public class ContactUs extends ListActivity {
 	    }
 	}
 
-	static final String[] NEWS = new String[] { "About", "Acknoledgements", "Call Developers [Beta]", "Email Us",  };
+	static final String[] NEWS = new String[] { "About", "Acknowledgements", "Call Developers [Beta]", "Email Us",  };
 }

@@ -2,10 +2,12 @@ package edu.luc.mb;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.widget.Toast;
 import luc.mb.R;
+import luc.mb.R.raw;
 
 public class Splash extends Activity {
 

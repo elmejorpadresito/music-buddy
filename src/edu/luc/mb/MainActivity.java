@@ -14,11 +14,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		
-			//Play Music Buddy Theme
-	 		MediaPlayer mp = MediaPlayer.create(this, raw.music_buddy_theme);  
-	 		mp.start();
+		setContentView(R.layout.activity_main);		
 		
 		Button a = (Button) findViewById(R.id.learn_button);
 		a.setOnClickListener(new View.OnClickListener() {
@@ -26,6 +22,7 @@ public class MainActivity extends Activity {
 				
 				Intent a = new Intent(MainActivity.this, Learn.class);  
 				startActivity(a);
+				
 			}
 		});
 		
@@ -67,16 +64,26 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
+
 		
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-	    // Handle item selection
+	    // Handle item selection on Menu (Exit and ON/OFF).
 	    switch (item.getItemId()) {
         case R.id.menu_exit:
-        	finish();
+        	System.exit(1);
             return true;
 	        default:
 	            return super.onOptionsItemSelected(item);
+	            
+	    case R.id.music_off:
+	    	//Play Music Buddy Theme
+	    	MediaPlayer mp = MediaPlayer.create(this, raw.music_buddy_theme); 
+	    	mp.start();  	
+
 	    }
+		return false;
+
 	}
+	
 }

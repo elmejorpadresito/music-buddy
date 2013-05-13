@@ -4,6 +4,7 @@
     <string name="app_name">Music Buddy</string>
     <string name="learn_button">Learn Music!</string>
     <string name="menu_exit">Exit Music Buddy</string>
+    <string name="music_on_off">Music ON/OFF</string>
     <string name="test_button">Quizzes</string>
     <string name="resources_button">Resources</string>
     <string name="logo">Logo</string>
@@ -22,7 +23,7 @@
 	This application is part of an Open Source Project for Loyola University Chicago COMP 412. \nThe project is run under the GNU GPL v3 License. 
 	\n\nComments, questions, and suggestions may be submitted to the Google Code Hosted project:\n
 	http://code.google.com/p/music-buddy/ </string>
-	<string name="about_email">music-buddy@googlecode.com</string>
+	<string name="about_email">mscbdd@gmail.com</string>
 	
 	
 	<string name="treble_a">treb_a.png</string>
